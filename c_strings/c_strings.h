@@ -27,9 +27,9 @@ int str_len(const char *p_str_input);
 int str_concat(const char *p_str1, const char *p_str2);
 
 //check if 2 strings are of equal length
-bool str_eq(const char *p_str1, const char *p_str2);
+int str_eq(const char *p_str1, const char *p_str2);
 
 //reverse a string
-int str_rev(char *p_str);
+const char * str_rev(char *p_str);
 
 #endif
